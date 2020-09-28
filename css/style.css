@@ -268,9 +268,9 @@ button::-moz-focus-inner {
 }
 .events__item{
 	width: 275px;
-	padding: 24px 24px 15px;
+	padding: 22px 24px 23px;
 	background-color: #fff;
-	margin: 2px;
+	margin: 1px;
 }
 .events__item-title{
 	font-family: 'Cormorant Infant', serif;
@@ -528,7 +528,18 @@ button::-moz-focus-inner {
 	.btn-wrapper {
 	    bottom: auto;
 	    top: 10px;
-	    left: 23%;
+	    left: 50%;
+	    transform: translateX(-50%);
+	    display: block;
+	}
+	.build__btn--right{
+		margin: 20px auto 0;
+	}
+	.blog__item{
+		margin-bottom: 20px;
+	}
+	.blog__follow-btn{
+		margin: 0 auto 20px;
 	}
 	.promo-inner {
 	    display: block;
@@ -645,9 +656,7 @@ button::-moz-focus-inner {
 	.events__items-right{
 		margin: 0 auto;
 	}
-	.btn-wrapper {
-	    left: 14%;
-	}
+
 }
 
 @media (max-width: 440px){
@@ -658,8 +667,11 @@ button::-moz-focus-inner {
 	.events__nav-items{
 		display: none;
 	}
-	.btn-wrapper {
-	    display: block;
+	.social-links a{
+		padding-left: 10px;
+	}
+	.blog{
+		padding-bottom: 20px;
 	}
 
 }
@@ -670,5 +682,24 @@ button::-moz-focus-inner {
 	.header-bg {
 	    top: 284px;
 	}
+	.promo__slide-left{
+		padding: 10px;
+	}
 
+}
+@media (max-width: 359px){
+	.social-links a{
+		font-size: 12px;
+	}
+	.btn{
+		width: 115px;
+		height: 45px;
+		line-height: 45px;
+	}
+	.build__btn--left{
+		width: 170px;
+	}
+	.promo-img{
+		width: 100%;
+	}
 }
